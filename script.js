@@ -25,4 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link.classList.toggle('active');
         });
     });
+});document.querySelector('.toggle-button').addEventListener('click', function() {
+    const navbarMenu = document.querySelector('.navbar ul');
+    navbarMenu.classList.toggle('active');
 });
